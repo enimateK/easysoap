@@ -101,8 +101,7 @@
                       element: 'LivestockResultsDocumentAvailabilityNoticeResponse'
                   }
               ]
-          }
-        ;
+        };
 
         // get xml data as json, try to flatten the output
         let dataAsJson = this.getXmlDataAsJson(soapResponse.body);
